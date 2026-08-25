@@ -47,7 +47,7 @@ kpi_columns = [
     'KPI_Academic_Reputation', 'KPI_Research_Productivity'
 ]
 
-# We removed fillna(0) to leave true blanks for Power BI!
+
 df[kpi_columns] = df[kpi_columns].round(2)
 
 df = df.drop(columns=['temp_qs_overall', 'temp_the_overall', 'temp_qs_cite', 

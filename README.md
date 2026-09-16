@@ -1,65 +1,69 @@
 # Higher-Education-Performance-Dashboard-Group-1
 Project Repository for Higher Education Performance Dashboard - Group 1
-# 🎓 EduVision_DV — Higher Education Performance Dashboard
+EduVision_DV: Higher Education Performance Dashboard 🎓📊
 
-> **Transforming fragmented global university data into interactive insights for institutional, research, student, and country-level analysis.**
+📌 Project Overview
 
-EduVision_DV is an end-to-end **Data Visualization project** developed during the **Infosys Springboard 7.0 Data Visualization Internship**.
+The EduVision_DV project is a comprehensive, interactive Tableau dashboard suite designed to analyze global higher education performance. By transforming complex university metrics into actionable visual insights, this tool enables comparative analysis across academic reputation, research output, student demographics, and national education trends.
 
-The project integrates the **2024 QS World University Rankings** and **2024 Times Higher Education (THE) rankings**, performs extensive data cleaning and transformation, engineers six education-focused KPIs, and delivers the final insights through **four interactive Tableau dashboards**.
+This project was built with a strong emphasis on enterprise-grade UI/UX design, utilizing pixel-perfect container hierarchies to ensure seamless scaling and readability.
 
-The project was designed to move beyond simply visualizing raw data — the emphasis was on building a reliable analytical dataset first and then transforming it into a coherent visual storytelling experience.
+🚀 Dashboard Modules
 
----
+The suite is divided into four highly interactive, synchronized dashboards:
 
-## 📌 Project Overview
+1. University Overview
 
-Higher-education data is distributed across multiple ranking sources and contains a wide range of institutional, research, student, and geographical metrics.
+Focus: Institutional reputation and global standing.
 
-This creates challenges when trying to:
+Key Visuals: Top Global University Rankings, Employer Reputation Top 10, University Distribution by Country (World Map).
 
-- Compare universities globally
-- Evaluate academic and research performance
-- Understand student demographics
-- Analyze international representation
-- Compare country-level education performance
-- Identify broader trends in global higher education
+KPIs: Total Universities, Avg. Overall Score, Avg. Academic Reputation, Avg. Employer Reputation.
 
-### 🎯 Project Goal
+2. Research Analytics
 
-To transform raw university-ranking data into an integrated, analysis-ready dataset and present meaningful insights through an interactive Tableau dashboard suite.
+Focus: Academic output and global research footprint.
 
----
+Key Visuals: Publications Analysis, Top Research Institutions (Custom Packed Bubble Chart), Research Productivity Trends (Scatter Plot).
 
-# 🔄 Project Workflow
+KPIs: Avg. Research Impact, Avg. Citations per Student, Avg. Intl. Research Network, Avg. Research Productivity.
 
-```text
-QS World University Rankings 2024
-                 +
-Times Higher Education Rankings 2024
-                 │
-                 ▼
-        Data Collection & Integration
-                 │
-                 ▼
-        ~3,466 Rows / ~55 Columns
-                 │
-                 ▼
-       Data Cleaning & Transformation
-                 │
-                 ▼
-          620 Universities
-                 │
-                 ▼
-           KPI Engineering
-                 │
-                 ▼
-       Final Analytical Dataset
-                 │
-                 ▼
-        Tableau Dashboard Suite
-                 │
-      ┌──────────┼──────────┐
-      ▼          ▼          ▼          ▼
- University   Research    Student    Country
-  Overview    Analytics   Analytics  Comparison
+3. Student Analytics
+
+Focus: Campus demographics and diversity.
+
+Key Visuals: International Student Analysis, Student Distribution Map, Enrollment Comparisons.
+
+KPIs: Avg. Intl. Students, Avg. Female Students %, Avg. Faculty Ratio, Total Students Enrolled.
+
+4. Country Comparison
+
+Focus: Macro-level geographical benchmarking of national education systems.
+
+Key Visuals: Top Performing Countries, International Outlook Spread (Box Plot), Top 5 Student Populations (Pie Chart).
+
+KPIs: Total Countries, Avg. Global Score, Total Universities, Avg. International Outlook.
+
+🛠️ Technical Implementation & UI/UX
+
+Grid-Based Tiled Architecture: Engineered using strict tiled horizontal and vertical containers (avoiding floating elements) to ensure perfect dynamic scaling across different screen resolutions and presentation modes.
+
+Advanced Layout Formatting: Implemented custom negative space (padding) between containers to create a modern, floating web-app aesthetic.
+
+Color Theory & Typography: Utilized a consistent dual-tone (Teal/Grey) color palette to guide user attention to critical data points without visual fatigue.
+
+Interactive Slicers: Integrated global filters (University Name, Country, Region) seamlessly linked across multiple worksheets to allow cross-dashboard drill-downs.
+
+💡 Key Learnings & Competencies
+
+Translating complex, multi-dimensional datasets into intuitive, executive-level visual summaries.
+
+Mastering Tableau’s container hierarchy, troubleshooting rendering glitches, and eliminating layout "dead space."
+
+Applying front-end UI/UX principles to data visualization.
+
+📥 How to View the Project
+
+Download the .twbx (Tableau Packaged Workbook) file from this repository.
+
+Open the file using Tableau Desktop or the free Tableau Reader.

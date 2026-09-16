@@ -1,12 +1,5 @@
 """
 data_collection.py
--------------------
-Milestone 1, Module 1: University Data Collection
-
-Purpose
--------
-Builds `university_raw_data.csv` by combining two public university ranking
-sources into one common structure:
 
   1. QS World University Rankings 2026
      Source page: https://www.topuniversities.com/world-university-rankings
